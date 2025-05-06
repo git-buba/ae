@@ -1,0 +1,77 @@
+.footer {
+  background-color: var(--midnight-900);
+  padding: 0 var(--side-padding);
+  font-size: 14px;
+  line-height: var(--line-height-md);
+}
+
+.inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.information {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.util {
+  color: white;
+  display: flex;
+  gap: 1em;
+}
+
+.policy {
+  color: white;
+  text-decoration: none;
+}
+
+.util button {
+  background: none;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.util button b {
+  font-weight: bold;
+}
+
+.address {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 1em;
+}
+.address span {
+  display: block;
+  color: var(--gray-400);
+}
+
+.address i {
+  font-style: normal;
+  color: var(--gray-400);
+}
+
+.address em {
+  font-style: normal;
+  font-weight: bold;
+  color: var(--gray-400);
+}
+
+.address a {
+  color: var(--gray-400);
+  text-decoration: underline;
+}
+
+.copyright {
+  margin-top: var(--space-md);
+  font-size: 12px;
+  color: var(--gray-300);
+}

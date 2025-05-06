@@ -1,0 +1,22 @@
+.categoryItem {
+  list-style: none;
+  height: var(--btn-md);
+  padding: 0px var(--space-md);
+  border-radius: calc(var(--btn-md) / 2);
+  font-size: 18px;
+  color: var(--gray-700);
+  background-color: #fff;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 600;
+}
+
+.active {
+  background-color: var(--midnight-900);
+  border-color: var(--midnight-900);
+  color: #fff;
+}

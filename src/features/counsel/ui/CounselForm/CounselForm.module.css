@@ -1,0 +1,62 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 32px;
+  background-color: #fff;
+}
+
+.servicePackageField {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.radioWrapper {
+  display: inline-flex;
+  gap: 12px;
+}
+
+.packageSummery {
+  padding: 12px;
+  border: 1px solid var(--midnight-900);
+}
+
+.agreementBox {
+  background-color: #f8f8f8;
+  background-color: var(--gray-10);
+  border: 1px solid #f8f8f8;
+  border: 1px solid var(--gray-10);
+  display: flex;
+  justify-content: space-between;
+  margin-top: var(--space-md2);
+  padding: 4px var(--space-sm2);
+  position: relative;
+  height: 56px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  color: var(--gray-700);
+}
+
+.checkbox i em {
+  font-style: normal;
+}
+
+.submitButtonWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submitButton {
+  background-color: var(--midnight-900);
+  color: #fff;
+  font-size: calc(1rem + 2px);
+  height: var(--btn-xlg);
+  border: none;
+  padding: 0 2em;
+}

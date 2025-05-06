@@ -1,0 +1,24 @@
+.content {
+  padding: 0;
+  max-width: 1240px;
+  margin: 0 auto;
+  min-height: calc(100vh - var(--header-height) - var(--footer-height));
+}
+
+.content > .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: var(--h1-height);
+  font-size: var(--h1-fsize);
+  line-height: var(--line-height-sm);
+}
+
+.content > .header em {
+  margin-top: 0.4em;
+  font-size: var(--h1-fsize-sm);
+  line-height: var(--line-height-md);
+  font-weight: 400;
+  word-break: keep-all;
+  color: var(--gray-700);
+}

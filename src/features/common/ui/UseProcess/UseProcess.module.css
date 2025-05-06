@@ -1,0 +1,46 @@
+.useProcess {
+  margin: var(--space-box) 0;
+}
+
+.heading {
+  font-size: var(--heading-2);
+  margin: var(--heading-2-margin);
+  font-weight: 700;
+}
+
+.stepList {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 0;
+  gap: var(--space-md3);
+  flex: 1 1;
+  text-align: left;
+
+  img {
+    display: block;
+  }
+  span {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  em {
+    margin-top: 8px;
+    max-width: 225px;
+  }
+}
+
+.stepItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  color: var(--gray-800);
+}
+
+.stepItem img {
+  width: var(--ic-lg);
+  height: var(--ic-lg);
+  margin-bottom: 8px;
+}

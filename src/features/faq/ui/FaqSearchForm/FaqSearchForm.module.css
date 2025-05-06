@@ -1,0 +1,80 @@
+.searchForm {
+  margin: var(--space-md3) auto;
+  padding: var(--px-md);
+  background-color: var(--gray-10);
+}
+
+.inputWrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--gray-300);
+  border-radius: 4px;
+  height: var(--input-md);
+  padding: 0 var(--space-xsm2);
+  background-color: white;
+}
+
+.inputWrap input {
+  flex: 1;
+  border: none;
+  font-size: var(--input-md-fsize);
+  outline: none;
+}
+
+.clear {
+  margin-left: 8px;
+  font-size: 12px;
+  background: none;
+  border: none;
+  color: var(--gray-600);
+  cursor: pointer;
+}
+
+.clear::before {
+  content: '';
+  background: url(https://kiabiz.kia.com/static/media/ic_clear.e7e65ee27d7e1eee6ae8.svg);
+  height: 24px;
+  width: 24px;
+  background-size: auto 100%;
+  display: block;
+}
+
+.submit {
+  height: 32px;
+  font-size: 14px;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.submit:before {
+  content: '';
+  background: url(https://kiabiz.kia.com/static/media/ic_search.42a3e3e5ef738711754a.svg);
+  height: 32px;
+  width: 32px;
+  background-size: auto 100%;
+  display: block;
+}
+
+.searchStatusBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: var(--px-md) 0;
+
+  .searchResult {
+    font-size: var(--heading-info);
+    line-height: var(--line-height-sm);
+  }
+
+  button {
+    background: transparent;
+    font-size: 16px;
+    padding: 0 4px;
+    border: none;
+    cursor: pointer;
+  }
+}

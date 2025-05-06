@@ -1,0 +1,62 @@
+.serviceInquiry {
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: var(--heading-2);
+  margin: var(--heading-2-margin);
+  font-weight: 700;
+}
+
+.inquiryInfo {
+  display: flex;
+  gap: var(--space-md);
+  padding: var(--space-box) var(--side-padding);
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xsm2);
+  padding: 16px 24px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #05141f;
+  border: 1px solid var(--midnight-900);
+  text-decoration: none;
+  flex: 1;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: var(--gray-200);
+  border-color: var(--gray-400);
+}
+
+.icon {
+  display: inline-block;
+  width: var(--ic-md);
+  height: var(--ic-md);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.download {
+  background-image: url('/icons/ic-download.svg');
+}
+
+.write {
+  background-image: url('/icons/ic-write.svg');
+}
+
+.talk {
+  background-image: url('/icons/ic-talk.svg');
+}
+
+.button span em {
+  font-size: 0.85em;
+  font-weight: 400;
+  margin-left: 4px;
+  color: var(--gray-700);
+}

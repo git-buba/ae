@@ -1,0 +1,49 @@
+.formHeading {
+  font-size: var(--heading-4);
+  margin: var(--heading-4-margin);
+  color: var(--gray-700);
+  font-weight: bold;
+  display: flex;
+  margin: 4px 0;
+}
+
+.required {
+  margin-left: 4px;
+  background: url(https://kiabiz.kia.com/static/media/ic_required.a7be858a4cabf5a5911d.svg) no-repeat;
+  background-size: auto 100%;
+  font-size: 0;
+  height: 28px;
+  width: 28px;
+}
+
+.formField {
+  input[type='text'],
+  textarea,
+  select {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid var(--gray-300);
+    border-radius: 4px;
+    font-size: 14px;
+    color: var(--gray-700);
+    background-color: #fff;
+    transition: border-color 0.2s;
+  }
+
+  input[type='text']:focus,
+  textarea:focus,
+  select:focus {
+    outline: none;
+    border-color: var(--mint-900);
+  }
+
+  textarea {
+    resize: vertical;
+    min-height: 140px;
+    line-height: var(--line-height-md);
+  }
+
+  .controlWrapper {
+    display: flex;
+  }
+}

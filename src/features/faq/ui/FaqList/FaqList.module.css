@@ -1,0 +1,25 @@
+.list {
+  border-top: 1px solid var(--gray-200);
+  padding: 0;
+  margin: 0;
+}
+
+.emptyData {
+  padding: var(--space-box2) 0;
+  text-align: center;
+
+  p {
+    color: var(--gary-500);
+  }
+}
+
+.moreButton {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  height: var(--btn-xlg2);
+  font-size: var(--list-more-size);
+  text-align: center;
+  margin-top: calc(var(--px-lg) - 8px);
+}

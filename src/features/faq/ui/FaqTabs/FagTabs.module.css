@@ -1,0 +1,48 @@
+.faqTabs {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto var(--space-md3);
+  font-size: var(--tab-fsize);
+  border-bottom: 1px solid var(--gray-200);
+  padding: 0px;
+  text-align: center;
+}
+
+.faqTabs li {
+  position: relative;
+  display: block;
+  flex: 1;
+  padding-bottom: 8px;
+  border: 1px solid var(--midnight-100);
+}
+
+.faqTabs li button {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: var(--tab-fsize);
+  font-weight: 500;
+  color: var(--gray-500);
+  padding: 8px 12px;
+  transition: color 0.2s;
+}
+
+.faqTabs li:hover button {
+  color: var(--gray-800);
+}
+
+.faqTabs .active {
+  background-color: var(--midnight-900, #05141f);
+  border-color: var(--midnight-900, #05141f);
+  color: #fff;
+  font-weight: 600;
+  position: relative;
+}
+
+.faqTabs .active button {
+  color: #fff;
+  font-weight: 600;
+  border-bottom: none;
+}

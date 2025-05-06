@@ -1,0 +1,51 @@
+.appDownload {
+  margin: var(--space-box) auto var(--space-box2);
+  padding: var(--space-box) var(--side-padding);
+  background-color: var(--gray-10);
+}
+
+.inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textBlock {
+  text-align: center;
+  margin-bottom: var(--space-md3);
+}
+
+.heading {
+  font-size: var(--heading-box);
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: var(--space-md2);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button {
+  align-items: center;
+  background: #fff;
+  border-radius: 8px;
+  display: flex;
+  font-size: 16px;
+  font-weight: 600;
+  height: 60px;
+  justify-content: center;
+  margin: 0 8px;
+  width: 296px;
+  text-decoration: none;
+  color: black;
+}
+
+.button img {
+  width: var(--ic-sm);
+  height: var(--ic-sm);
+}

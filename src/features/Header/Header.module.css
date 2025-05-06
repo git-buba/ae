@@ -1,0 +1,47 @@
+.header {
+  height: var(--header-height); /* 80px */
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+  position: sticky;
+  top: 0;
+}
+
+.inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--side-padding); /* 48px */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  background-image: url(https://kiabiz.kia.com/static/media/logo_kiabiz.de8caa8820f8b862c885.svg);
+  width: 140px;
+  height: 48px;
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.nav ul {
+  display: flex;
+  gap: var(--space-sm); /* 20px */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li a {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--gray-700);
+  text-decoration: none;
+  padding: 8px 4px;
+  transition: color 0.2s;
+}

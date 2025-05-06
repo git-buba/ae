@@ -1,0 +1,1 @@
+export { FaqCategoryFilter } from './FaqCategoryFilter';

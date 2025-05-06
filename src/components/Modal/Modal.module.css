@@ -1,0 +1,32 @@
+.modal {
+  background-color: white;
+  min-width: 320px;
+}
+
+.modalHeader {
+  padding: 0 20px;
+}
+.modalContent {
+  padding: 0 20px;
+}
+
+.modalFooter {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  button {
+    background-color: #fff;
+    border: 1px solid var(--midnight-900);
+    font-size: 18px;
+    height: 52px;
+    min-width: 7.5em;
+  }
+
+  button:hover {
+    cursor: pointer;
+    background-color: var(--gray-200);
+    border-color: var(--gray-400);
+  }
+}
